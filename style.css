@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family:'h' ;
+    src: url(font/h.ttf);
+}
+@font-face {
+    font-family:'Pc' ;
+    src: url(font/Pc.ttf);
+}
+@font-face {
+    font-family:'S' ;
+    src: url(font/S.ttf);
+}
+@font-face {
+    font-family:'A' ;
+    src: url(font/A.ttf);
+}
+@font-face {
+    font-family:'C' ;
+    src: url(font/C.ttf);
+}
+
+header{
+    background-image: url("images/c.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family:'h';
+    padding-right: 300px;
+}
+.logo span{
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family:'h';
+    color: black;
+}
+.logo img{
+    width:45px;
+    height: 45px;
+    top: 0;
+    
+}
+.Menu a{
+    text-decoration: none ;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30;
+    font-family:'w' ;
+}
+
+.coffee{
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+.tagline{
+    position: absolute;
+    left: 360px;
+    top: 250px;
+    color:rgb(250, 247, 248) ;
+    font-size: 50;
+}
+
+.centre{
+    
+    flex-basis: 50;
+    max-width: 400px;
+    padding-left: 165px;
+    padding-top: 90px;
+}
+.icon h5{
+    color: white;
+}
+
+.text{
+    
+    padding-left: 400px;
+    padding-top: 120px;
+}
+.text h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'C';
+     
+} 
+.text h3{
+    font-size: 60px;
+    font-family: 'Pc';
+   
+
+}
+.text p{
+    font-size: 20px;
+    font-family: 'S';
+    
+}
+.text button{
+    background: none;
+    outline: none;
+    border: 1px solid #f3ebec;
+    border-radius:10px ;
+    margin: 30px 0px;
+    padding: 10px;
+}
